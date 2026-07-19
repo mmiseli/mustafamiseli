@@ -1,11 +1,11 @@
-<!DOCTYPE html>
+html<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mustafa Miseli | Professional Services</title>
+    <title>Mustafa Miseli | Elite Business & Technical Consulting</title>
     <style>
-        /* Modern Business Theme CSS Styling */
+        /* Premium Executive Theme CSS Styling */
         * {
             box-sizing: border-box;
             margin: 0;
@@ -14,153 +14,180 @@
         body {
             font-family: 'Segoe UI', Arial, sans-serif;
             line-height: 1.6;
-            color: #333;
-            background-color: #fcfcfc;
+            color: #2c3e50;
+            background-color: #fbfbfc;
         }
         /* Navigation Bar */
         nav {
-            background-color: #1a252f;
-            padding: 1rem 5%;
+            background-color: #0b1320; /* Deep Midnight Navy */
+            padding: 1.2rem 5%;
             display: flex;
             justify-content: space-between;
             align-items: center;
             position: sticky;
             top: 0;
             z-index: 1000;
+            border-bottom: 2px solid #d4af37; /* Luxury Gold Accent Border */
         }
         nav .logo {
             color: #ffffff;
             font-size: 1.4rem;
-            font-weight: bold;
+            font-weight: 700;
             text-decoration: none;
+            letter-spacing: 0.5px;
+        }
+        nav .logo span {
+            color: #d4af37; /* Gold logo text */
         }
         nav .menu a {
             color: #bdc3c7;
             text-decoration: none;
-            margin-left: 20px;
-            font-size: 1rem;
+            margin-left: 24px;
+            font-size: 0.95rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1px;
             transition: color 0.3s;
         }
         nav .menu a:hover {
-            color: #3498db;
+            color: #d4af37;
         }
         /* Hero Section */
         header {
-            background: linear-gradient(135deg, #2c3e50 0%, #1a252f 100%);
+            background: linear-gradient(135deg, #0b1320 0%, #1c2a39 100%);
             color: white;
-            padding: 100px 5%;
+            padding: 120px 5%;
             text-align: center;
+            border-bottom: 1px solid rgba(212, 175, 55, 0.2);
         }
         header h1 {
-            font-size: 3rem;
-            margin-bottom: 15px;
+            font-size: 3.2rem;
+            margin-bottom: 20px;
             letter-spacing: -0.5px;
+            font-weight: 700;
         }
         header p {
-            font-size: 1.3rem;
-            color: #ecf0f1;
-            max-width: 700px;
-            margin: 0 auto 30px auto;
+            font-size: 1.35rem;
+            color: #e2e8f0;
+            max-width: 750px;
+            margin: 0 auto 35px auto;
+            font-weight: 300;
         }
         .btn-primary {
             display: inline-block;
-            background-color: #3498db;
-            color: white;
-            padding: 12px 28px;
+            background-color: #d4af37; /* Premium Gold Button */
+            color: #0b1320;
+            padding: 14px 36px;
             text-decoration: none;
-            border-radius: 5px;
-            font-weight: bold;
+            border-radius: 4px;
+            font-weight: 700;
             font-size: 1.1rem;
-            transition: background 0.3s;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(212, 175, 55, 0.2);
         }
         .btn-primary:hover {
-            background-color: #2980b9;
+            background-color: #c5a028;
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(212, 175, 55, 0.3);
         }
         /* Section Layouts */
         section {
-            padding: 80px 5%;
+            padding: 90px 5%;
             max-width: 1100px;
             margin: 0 auto;
         }
         .section-title {
             text-align: center;
-            font-size: 2.2rem;
-            color: #2c3e50;
-            margin-bottom: 40px;
+            font-size: 2.4rem;
+            color: #0b1320;
+            margin-bottom: 45px;
             position: relative;
+            font-weight: 700;
         }
         .section-title::after {
             content: '';
             display: block;
-            width: 50px;
+            width: 60px;
             height: 3px;
-            background-color: #3498db;
-            margin: 10px auto 0 auto;
+            background-color: #d4af37;
+            margin: 12px auto 0 auto;
         }
         /* Services Grid Layout */
         .services-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-            gap: 30px;
+            gap: 35px;
         }
         .service-card {
             background: white;
-            padding: 30px;
-            border-radius: 8px;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
-            border-top: 4px solid #3498db;
-            transition: transform 0.3s;
+            padding: 35px;
+            border-radius: 6px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.04);
+            border-top: 4px solid #d4af37;
+            transition: all 0.3s ease;
         }
         .service-card:hover {
             transform: translateY(-5px);
+            box-shadow: 0 15px 35px rgba(0,0,0,0.08);
         }
         .service-card h3 {
-            color: #2c3e50;
-            margin-bottom: 12px;
-            font-size: 1.4rem;
+            color: #0b1320;
+            margin-bottom: 15px;
+            font-size: 1.45rem;
+            font-weight: 600;
+        }
+        .service-card p {
+            color: #5a6e7f;
+            font-size: 1rem;
         }
         /* About & Contact Sections */
         .about-text {
-            font-size: 1.15rem;
-            color: #555;
+            font-size: 1.2rem;
+            color: #4a5568;
             text-align: center;
-            max-width: 800px;
+            max-width: 850px;
             margin: 0 auto;
-            line-height: 1.8;
+            line-height: 1.9;
         }
         .contact-box {
             background-color: #ffffff;
-            border: 1px solid #e1e8ed;
-            padding: 40px;
-            border-radius: 8px;
+            border: 1px solid #e2e8f0;
+            padding: 50px 40px;
+            border-radius: 6px;
             text-align: center;
-            max-width: 600px;
+            max-width: 650px;
             margin: 0 auto;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.02);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.02);
         }
         .contact-box p {
-            margin-bottom: 15px;
-            font-size: 1.1rem;
+            margin-bottom: 20px;
+            font-size: 1.15rem;
+            color: #4a5568;
         }
         .contact-box strong {
-            color: #2c3e50;
+            color: #0b1320;
         }
         /* Footer Elements */
         footer {
-            background-color: #1a252f;
-            color: #7f8c8d;
+            background-color: #0b1320;
+            color: #a0aec0;
             text-align: center;
-            padding: 30px 5%;
+            padding: 35px 5%;
             font-size: 0.95rem;
-            border-top: 1px solid #2c3e50;
+            border-top: 1px solid rgba(212, 175, 55, 0.2);
         }
         /* Responsive adjustments */
         @media (max-width: 768px) {
             header h1 {
-                font-size: 2.2rem;
+                font-size: 2.4rem;
             }
             header p {
-                font-size: 1.1rem;
+                font-size: 1.15rem;
+            }
+            section {
+                padding: 60px 5%;
             }
         }
     </style>
@@ -169,7 +196,7 @@
 
     <!-- Header / Navigation Bar -->
     <nav>
-        <a href="#" class="logo">Mustafa Miseli</a>
+        <a href="#" class="logo">Mustafa <span>Miseli</span></a>
         <div class="menu">
             <a href="#services">Services</a>
             <a href="#about">About</a>
@@ -179,47 +206,47 @@
 
     <!-- Main Hero Banner Section -->
     <header>
-        <h1>Welcome to Mustafa Miseli</h1>
-        <p>Providing professional, reliable, and high-quality business solutions tailored specifically to meet your strategic goals.</p>
-        <a href="#contact" class="btn-primary">Get In Touch</a>
+        <h1>Strategic Business Growth & Technical Execution</h1>
+        <p>Providing custom advisory, data-driven management structures, and technical solutions designed to scale your operational capabilities.</p>
+        <a href="#contact" class="btn-primary">Schedule Advisory Session</a>
     </header>
 
     <!-- Core Business Services Section -->
     <section id="services">
-        <h2 class="section-title">Our Services</h2>
+        <h2 class="section-title">Professional Expertise</h2>
         <div class="services-grid">
             <div class="service-card">
-                <h3>Consulting Service</h3>
-                <p>Expert evaluation and strategic planning sessions designed to optimize workflow infrastructure and drive operational efficiency.</p>
+                <h3>Management Consulting</h3>
+                <p>We analyze internal business infrastructure to eliminate overhead friction, streamline standard operating procedures, and execute targeted growth roadmaps.</p>
             </div>
             <div class="service-card">
-                <h3>Custom Solutions</h3>
-                <p>Tailored development implementation plans executed to solve complex business demands efficiently and reliably.</p>
+                <h3>Technical Implementations</h3>
+                <p>Engineering customized technical frameworks and platform integration pipelines built specifically to secure, manage, and scale corporate data asset structures.</p>
             </div>
             <div class="service-card">
-                <h3>Strategic Support</h3>
-                <p>Continuous system oversight, management guidance, and maintenance designed to scale up alongside your operations.</p>
+                <h3>Operational Oversight</h3>
+                <p>Continuous executive guidance and strategic risk mitigation management to protect performance metrics and guide critical scaling decisions.</p>
             </div>
         </div>
     </section>
 
     <!-- Business Profile Section -->
-    <section id="about" style="background-color: #f4f7f6; max-width: 100%; width: 100%;">
+    <section id="about" style="background-color: #f7fafc; max-width: 100%; width: 100%;">
         <div style="max-width: 1100px; margin: 0 auto; padding: 0 5%;">
-            <h2 class="section-title">About Our Business</h2>
+            <h2 class="section-title">Corporate Profile</h2>
             <p class="about-text">
-                At Mustafa Miseli, we prioritize building long-term professional partnerships founded on clear communication, technical excellence, and reliable implementation. We study each project uniquely to provide high-impact modern services.
+                At Mustafa Miseli, we provide high-level professional advisory services for businesses requiring exact execution and technological transformation. We treat every client engagement as a long-term strategic partnership, delivering measurable bottom-line improvements through rigorous research, custom technical planning, and complete structural oversight.
             </p>
         </div>
     </section>
 
     <!-- Call to Action & Contact Information -->
     <section id="contact">
-        <h2 class="section-title">Contact Us</h2>
+        <h2 class="section-title">Corporate Inquiries</h2>
         <div class="contact-box">
-            <p>Ready to start your next project or have a quick inquiry? Reach out directly via the information below:</p>
-            <p style="font-size: 1.2rem; margin-top: 20px;"><strong>Email:</strong> info@mustafamiseli.com</p>
-            <p style="font-size: 1.2rem;"><strong>Location:</strong> Arlington, VA</p>
+            <p>Connect directly with our team to explore scaling avenues, review business infrastructure constraints, or establish advisory arrangements.</p>
+            <p style="font-size: 1.25rem; margin-top: 25px; color: #0b1320;"><strong>Email:</strong> info@mustafamiseli.com</p>
+            <p style="font-size: 1.25rem; color: #0b1320;"><strong>Corporate Office:</strong> Arlington, VA</p>
         </div>
     </section>
 
